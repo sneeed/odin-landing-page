@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: aqua;
+}
+
+.body {
+  background-color: yellow;
+}
+
+.intro {
+  background-color: orange;
+}
+
+.middle {
+  background-color: aliceblue;
+}
+
+.quote {
+  background-color: brown;
+}
+
+.cta {
+  background-color: purple;
+}
+
+.footer {
+  background-color: green;
+}
