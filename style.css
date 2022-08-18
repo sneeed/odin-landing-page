@@ -67,7 +67,7 @@ body {
   color: #e5e7eb;
 }
 
-.intro-text button {
+button {
   padding: 8px 24px;
   color: white;
   background-color: #3882f6;
@@ -149,7 +149,28 @@ body {
 }
 
 .cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+  padding: 32px 72px;
   background-color: #3882f6;
+}
+
+.cta-text {
+  color: white;
+}
+
+.cta-text h3 {
+  margin: 0;
+}
+
+.cta-text p {
+  margin: 0;
+}
+
+.cta button {
+  border: 1px solid white;
 }
 
 .footer {
