@@ -7,6 +7,7 @@ body {
 }
 
 .hero {
+  padding: 0 100px 100px 100px;
   background-color: #1f2937;
 }
 
@@ -14,7 +15,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 100px;
 }
 
 .header .logo {
@@ -38,13 +38,65 @@ body {
   color: #e5e7eb;
 }
 
+.intro {
+  display: flex;
+  padding-top: 50px;
+}
+
+.intro-text {
+  flex: 1;
+  align-items: top;
+  padding-right: 24px;
+  font-size: 18px;
+  color: white;
+}
+
+.intro-text h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+
+.intro-text p {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.intro-text button {
+  padding: 8px 16px;
+  color: white;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.intro-image {
+  flex: 1;
+}
+
+.intro-image .image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: grey;
+  font-size: 12px;
+  color: white;
+}
+
 .body {
   background-color: yellow;
   padding: 0 100px;
 }
 
-.intro {
-  background-color: orange;
+.body h2 {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
 }
 
 .middle {
@@ -52,11 +104,18 @@ body {
 }
 
 .quote {
-  background-color: brown;
+  background-color: #e5e7eb;
+}
+
+.quote blockquote {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
 }
 
 .cta {
-  background-color: purple;
+  background-color: #3882f6;
 }
 
 .footer {
