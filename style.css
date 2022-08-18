@@ -6,6 +6,7 @@ body {
   margin: 0 auto;
   max-width: 900px;
   font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+  background-color: black;
 }
 
 .hero {
@@ -167,6 +168,7 @@ button {
 
 .cta-text p {
   margin: 0;
+  font-size: small;
 }
 
 .cta button {
@@ -174,6 +176,9 @@ button {
 }
 
 .footer {
-  padding: 0 100px;
+  padding: 24px 100px;
   background-color: #1f2937;
+  font-size: small;
+  text-align: center;
+  color: white;
 }
